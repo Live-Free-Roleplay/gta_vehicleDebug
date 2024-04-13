@@ -255,7 +255,7 @@ RegisterCommand("+vehicleDebug", function()
 	Debugger:Focus(not Debugger.hasFocus)
 end, true)
 
-RegisterKeyMapping("+vehicleDebug", "Vehicle Debugger", "keyboard", "lmenu")
+RegisterKeyMapping("+vehicleDebug", "Vehicle Debugger", "keyboard", "rmenu")
 
 RegisterCommand("vehdebug", function()
 	Debugger:ToggleOn(not Debugger.toggleOn)
